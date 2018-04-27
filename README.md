@@ -1,4 +1,4 @@
-# dim-rpc
+# DIM RPC (Native & Docker image)
 
 [![build status](https://secure.travis-ci.org/gemon297/dim-rpc.svg)](http://travis-ci.org/gemon297/dim-rpc)
 [![Coverage Status](https://img.shields.io/coveralls/gemon297/dim-rpc.svg)](https://coveralls.io/r/gemon297/dim-rpc)
@@ -6,7 +6,7 @@
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-## RPC server implementation for NEM blockchain with DIMCOIN
+## DIM RPC - RPC gateway to the DIM ecosystem (100% NEM blockchain compatible)
 
 ## Security Warning
 All calls should be made from the server where RPC is running at ( i.e., `localhost` or `127.0.0.1` ). The RPC server should never be publicly accessible. If you wish to access dim-rpc from a remote address, you can whitelist the address with `--allow <address>`. Addresses allow you to use wildcards, eg. `192.168.1.*` or `10.0.*.*`.
