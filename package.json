@@ -1,0 +1,50 @@
+{
+  "name": "dim-rpc",
+  "version": "1.0.0",
+  "description": "RPC server acting as lite client for the NEM blockchain with DIMCOIN",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 20000 --exit",
+    "start": "nodemon ./server.js"
+  },
+  "bin": {
+    "dim-rpc": "./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gemon297/dim-rpc.git"
+  },
+  "keywords": [
+    "dim",
+    "nem",
+    "blockchain",
+    "rpc"
+  ],
+  "author": "fx thoorens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gemon297/dim-rpc/issues"
+  },
+  "homepage": "https://github.com/gemon297/dim-rpc#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "bigi": "^1.4.2",
+    "bip38": "^2.0.1",
+    "bip39": "^2.4.0",
+    "commander": "^2.11.0",
+    "create-hmac": "^1.1.6",
+    "leveldown": "^2.0.0",
+    "levelup": "^2.0.0",
+    "nem-sdk": "^1.6.2",
+    "npm": "^5.8.0",
+    "request": "^2.83.0",
+    "restify": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^4.0.1",
+    "standard": "^9.0.2"
+  }
+}
