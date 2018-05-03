@@ -52,6 +52,14 @@ If you want to create several accounts for one user, you need to use a different
 
 Note that if the transaction has been created via the RPC it has been stored internally, as such only the transaction `id` is needed to broadcast/rebroadcast it. Otherwise if created outside of this RPC server, pass the whole transaction body as the POST payload.
 
+## Community Proposal
+
+This project has been worked on in the scope of a DIM Community Proposal. Details about this Project Proposal can be found on the following Link:
+
+- [dim-rpc Community Proposal](DIM_PROJECT_PROPOSAL.md)
+
+The DIM ecosystem is always looking for talented developers. This community proposal can be used as a Template for upcoming project developments.
+
 ## Donations
 
 - DIM & NEM: `NAKSWFKPKVSP5AA7OZO5KUU5AWJYYE55Y6O7OZVE`
